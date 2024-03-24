@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbershop</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="nav-btn">
+                <button onclick="sbAc()" id="sb-open" class="nav-btn bgsari textwhite"><i class="fas fa-bars"></i></button>
+                <button onclick="sbBagla()" id="sb-close" class="nav-btn bgsari textwhite"><i class="fas fa-times"></i></button>
+            </div>
+            <nav id="sidebar-item" class="col-md-4 col-lg-3 bgsari">
+                <div class="container">
+                   <div id="sidebar">
+                        <a href="index.htm" class="navbar-brand">
+                            <img width="154px" src="img/barber-logo.png" alt="Barber Logo" />
+                        </a>
+                        <ul id="nav-menu">
+                            <li><a class="textwhite" href="index.htm">home</a></li>
+                            <li><a class="textqara" href="#story">our story</a></li>
+                            <li><a class="textqara" href="#services">services</a></li>
+                            <li><a class="textqara" href="#price">price list</a></li>
+                            <li><a class="textqara" href="#contact">contact</a></li>
+                        </ul>
+                   </div>
+                </div>
+            </nav>
+            <div id="right-item" class="col-md-8 col-lg-9">
+                <header>
+                    <div class="container">
+                        <div id="header">
+                            <h1 class="textwhite">Barber Shop</h1>
+                            <p class="textqara">Get the most professional haircut for you</p>
+                            <div class="header-btn">
+                                <button class="hero-about-btn textwhite">About Us</button>
+                                <button class="bgqirmizi textwhite">What we do</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom-block">
+                        <img src="img/vintage-chair-barbershop.jpg" alt="image header" />
+                        <h4 class="textwhite">Hurry Up! Get good haircut.</h4>
+                        <button class="bgsari textwhite align-self-center">Book a seat</button>
+                    </div>
+                </header>
+                <main>
+                    <section id="story">
+                        <div class="container">
+                            <div class="story-title">
+                                <h2 class="textqara">Best hairdressers</h2>
+                                <p class="textboz">Gentlemen's Barber Shop is new Bootstrap v5 HTML CSS template by for everyone. There is a sidebar menu to navigate the one-page layout. You can feel free to adapt this template for your business.</p>
+                            </div>   
+                            <h6 class="textqirmizi">Meet Babers</h6>  
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <div class="story-item bgsari">
+                                        <img src="img/portrait-male-hairdresser-with-scissors.jpg" alt="story image" />
+                                        <div class="story-icon">
+                                            <p class="textboz">Redo</p>
+                                            <div class="story-icons">
+                                                <span class="bgqirmizi textwhite"><i class="fab fa-facebook"></i></span>
+                                                <span class="bgqirmizi textwhite"><i class="fab fa-instagram"></i></span>
+                                                <span class="bgqirmizi textwhite"><i class="fab fa-whatsapp"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="story-item bgsari">
+                                        <img src="img/portrait-mid-adult-bearded-male-barber-with-folded-arms.jpg" alt="story image" />
+                                        <div class="story-icon">
+                                            <p class="textboz">Sam</p>
+                                            <div class="story-icons">
+                                                <span class="bgqirmizi textwhite"><i class="fab fa-facebook"></i></span>
+                                                <span class="bgqirmizi textwhite"><i class="fab fa-instagram"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="discount">
+                        <div class="section-overlay"></div>
+                        <div class="container">
+                            <div class="discount-content textcenter">
+                                <h2 class="textcenter textqirmizi">Get 32% Discount</h2>
+                                <p class="textcenter textwhite">on every second week of the month</p>
+                                <strong class="bgsari textqara">Promo Code: BarBerMo</strong>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="services">
+                        <div class="container">
+                            <h2 class="textqara">Services</h2>
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <div class="services-item">
+                                        <img width="100%" src="img/woman-cutting-hair-man-salon.jpg" alt="image" />
+                                        <div class="services-text">
+                                            <h4 class="textwhite">Hair cut</h4>
+                                            <strong class="bgsari textqara">$36.00</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="services-item">
+                                        <img width="100%" src="img/hairdresser-grooming-their-client.jpg" alt="image" />
+                                        <div class="services-text">
+                                            <h4 class="textwhite">Washing</h4>
+                                            <strong class="bgsari textqara">$25.00</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="services-item">
+                                        <img width="100%" src="img/hairdresser-grooming-client.jpg" alt="image" />
+                                        <div class="services-text">
+                                            <h4 class="textwhite">Shaves</h4>
+                                            <strong class="bgsari textqara">$30.00</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="services-item">
+                                        <img width="100%" src="img/boy-getting-haircut-salon-front-view.jpg" alt="image" />
+                                        <div class="services-text">
+                                            <h4 class="textwhite">Kids</h4>
+                                            <strong class="bgsari textqara">$25.00</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="login">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 col-12 m-lg-auto">
+                                    <div id="form">
+                                        <h2 class="textcenter textqara">Book a seat</h2>
+                                        <p class="textcenter textboz">Please fill out the form and we get back to you</p>
+                                        <form action="#">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-12">
+                                                    <input type="text" placeholder="Full Name" />
+                                                </div>
+                                                <div class="col-lg-6 col-12">
+                                                    <input type="text" placeholder="Mobile 010-020-0340" />
+                                                </div>
+                                                <div class="col-lg-6 col-12">
+                                                    <input type="time" value="18:30" />
+                                                </div>
+                                                <div class="col-lg-6 col-12">
+                                                    <select id="form-sel">
+                                                        <option>Select Branches</option>
+                                                        <option>Grunberger</option>
+                                                        <option>BehrenstraBe</option>
+                                                        <option>Weinbergsweg</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-lg-6 col-12">
+                                                    <input type="date"  />
+                                                </div>
+                                                <div class="col-lg-6 col-12">
+                                                    <input type="number"  min="1" placeholder="Number of People" />
+                                                </div>
+                                                <div class="px-20 col-12">
+                                                    <textarea cols="30" rows="5" placeholder="Comment(Optionals)"></textarea>
+                                                </div>
+                                            </div>
+                                            <div id="login-btn" class="textcenter">
+                                                <button class="bgqirmizi textwhite">Submit</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="price">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8 px-20">
+                                    <div class="price-left-item">
+                                        <h2 class="textqara">Price List</h2>
+                                        <strong class="textqara">Starting at $25</strong>
+                                        <div class="price-item">
+                                            <h6 class="textqara">Haircut
+                                                <span></span>
+                                                <strong class="textsari">$32.00</strong>
+                                            </h6>
+                                        </div>
+                                        <div class="price-item">
+                                            <h6 class="textqara">Beard Trim
+                                                <span></span>
+                                                <strong class="textsari">$26.00</strong>
+                                            </h6>
+                                        </div>
+                                        <div class="price-item">
+                                            <h6 class="textqara">Razor Cut
+                                                <span></span>
+                                                <strong class="textsari">$36.00</strong>
+                                            </h6>
+                                        </div>
+                                        <div class="price-item">
+                                            <h6 class="textqara">Shaves
+                                                <span></span>
+                                                <strong class="textsari">$30.00</strong>
+                                            </h6>
+                                        </div>
+                                        <div class="price-item">
+                                            <h6 class="textqara">Styling / Color
+                                                <span></span>
+                                                <strong class="textsari">$25.00</strong>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="price-right" class="col-lg-4 px-20 align-self-center">
+                                    <div class="price-right-item bgsari">
+                                        <img src="img/vintage-chair-barbershop (2).jpg" alt="image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="say">
+                        <h2 class="textqara">Say hello</h2>
+                    </section>
+                    <section id="contact">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <div class="contact-left-item">
+                                        <h5 class="textqara">Contact Information</h5>
+                                        <p class="textsari">(+49) 120-240-3600</p>
+                                        <p class="textsari">hello@barber.beauty</p>
+                                        <div class="contact-icons">
+                                            <span class="bgqirmizi textwhite"><i class="fa-brands fa-facebook"></i></span>
+                                            <span class="bgqirmizi textwhite"><i class="fa-brands fa-twitter"></i></span>
+                                            <span class="bgqirmizi textwhite"><i class="fa-brands fa-instagram"></i></span>
+                                            <span class="bgqirmizi textwhite"><i class="fa-brands fa-youtube"></i></span>
+                                            <span class="bgqirmizi textwhite"><i class="fa-brands fa-whatsapp"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="contact-right-item bgsari">
+                                        <div class="contact-item bgqirmizi"></div>
+                                        <div class="contact-right-content">
+                                            <span class="bgsari textqara"><i class="fa-solid fa-store fa-2x"></i></span>
+                                            <strong class="textwhite">OPEN DAILY</strong>
+                                            <strong class="textqara">10:00 AM - 8:00 PM</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="map" class="col-12 px-20">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.9214078462574!2d49.832389475845!3d40.366266971447736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dca0a08ddf5%3A0xddd20fe143a690b6!2sIcherisheher!5e0!3m2!1sen!2saz!4v1711292047216!5m2!1sen!2saz" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <footer>
+                    <div class="container">
+                        <h4 class="textqara px-20">Our Branches</h4>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12 px-20">
+                                <div class="footer-item">
+                                    <strong class="textqirmizi">Grünberger</strong>
+                                    <p class="textboz">Grünberger Str. 31, 10245 Berlin, Germany</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12 px-20">
+                                <div class="footer-item">
+                                    <strong class="textqirmizi">Behrenstraße</strong>
+                                    <p class="textboz">Behrenstraße 27, 10117 Berlin, Germany</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12 px-20">
+                                <div class="footer-item">
+                                    <strong class="textqirmizi">Weinbergsweg</strong>
+                                    <p class="textboz">Weinbergsweg 23, 10119 Berlin, Germany</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="copy px-20">
+                            <p class="textboz">Copyright © 2036 Barber Shop</p>
+                            <div class="top-btn">
+                                <a href="#top"><i class="fa-solid fa-arrow-up textsari"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
